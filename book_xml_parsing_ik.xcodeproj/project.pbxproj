@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0A184F78216A3053003DE682 /* TableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0A184F77216A3053003DE682 /* TableViewCell.swift */; };
 		0ABD0337216A1CC0005CF70C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD0336216A1CC0005CF70C /* AppDelegate.swift */; };
 		0ABD0339216A1CC0005CF70C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD0338216A1CC0005CF70C /* ViewController.swift */; };
 		0ABD033C216A1CC0005CF70C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD033A216A1CC0005CF70C /* Main.storyboard */; };
@@ -14,6 +15,8 @@
 		0ABD0341216A1CC0005CF70C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD033F216A1CC0005CF70C /* LaunchScreen.storyboard */; };
 		0ABD034C216A1CC0005CF70C /* book_xml_parsing_ikTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD034B216A1CC0005CF70C /* book_xml_parsing_ikTests.swift */; };
 		0ABD0357216A1CC0005CF70C /* book_xml_parsing_ikUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD0356216A1CC0005CF70C /* book_xml_parsing_ikUITests.swift */; };
+		0ABD0365216A1CEE005CF70C /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0ABD0364216A1CEE005CF70C /* Book.swift */; };
+		0ABD0367216A1D0D005CF70C /* Book.xml in Resources */ = {isa = PBXBuildFile; fileRef = 0ABD0366216A1D0D005CF70C /* Book.xml */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +37,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0A184F77216A3053003DE682 /* TableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = TableViewCell.swift; path = ../TableViewCell.swift; sourceTree = "<group>"; };
 		0ABD0333216A1CC0005CF70C /* book_xml_parsing_ik.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = book_xml_parsing_ik.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABD0336216A1CC0005CF70C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		0ABD0338216A1CC0005CF70C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -47,6 +51,8 @@
 		0ABD0352216A1CC0005CF70C /* book_xml_parsing_ikUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = book_xml_parsing_ikUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		0ABD0356216A1CC0005CF70C /* book_xml_parsing_ikUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = book_xml_parsing_ikUITests.swift; sourceTree = "<group>"; };
 		0ABD0358216A1CC1005CF70C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0ABD0364216A1CEE005CF70C /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		0ABD0366216A1D0D005CF70C /* Book.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = Book.xml; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +103,9 @@
 		0ABD0335216A1CC0005CF70C /* book_xml_parsing_ik */ = {
 			isa = PBXGroup;
 			children = (
+				0A184F77216A3053003DE682 /* TableViewCell.swift */,
+				0ABD0366216A1D0D005CF70C /* Book.xml */,
+				0ABD0364216A1CEE005CF70C /* Book.swift */,
 				0ABD0336216A1CC0005CF70C /* AppDelegate.swift */,
 				0ABD0338216A1CC0005CF70C /* ViewController.swift */,
 				0ABD033A216A1CC0005CF70C /* Main.storyboard */,
@@ -234,6 +243,7 @@
 			files = (
 				0ABD0341216A1CC0005CF70C /* LaunchScreen.storyboard in Resources */,
 				0ABD033E216A1CC0005CF70C /* Assets.xcassets in Resources */,
+				0ABD0367216A1D0D005CF70C /* Book.xml in Resources */,
 				0ABD033C216A1CC0005CF70C /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -260,7 +270,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				0ABD0339216A1CC0005CF70C /* ViewController.swift in Sources */,
+				0A184F78216A3053003DE682 /* TableViewCell.swift in Sources */,
 				0ABD0337216A1CC0005CF70C /* AppDelegate.swift in Sources */,
+				0ABD0365216A1CEE005CF70C /* Book.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
